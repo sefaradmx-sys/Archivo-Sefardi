@@ -1,20 +1,37 @@
-# Archivo Sefardí 📜
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Archivo Sefardí</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+  <div class="layout">
+    <aside class="sidebar">
+      <h2>Secciones</h2>
+      <ul>
+        <li><a href="#" onclick="loadMarkdown('historia.md')">Historia</a></li>
+        <li><a href="#" onclick="loadMarkdown('testimonios.md')">Testimonios</a></li>
+        <li><a href="#" onclick="loadMarkdown('instituciones.md')">Instituciones</a></li>
+        <li><a href="#" onclick="loadMarkdown('referencias.md')">Referencias</a></li>
+      </ul>
+    </aside>
 
-Este sitio recopila documentos históricos, testimonios y archivos sobre los judíos sefardíes. Aquí encontrarás:
+    <main class="content">
+      <header>
+        <h1>Archivo Sefardí</h1>
+        <p>Documentación histórica, comunitaria y ética</p>
+      </header>
+      <section id="markdown-content">
+        <p>Selecciona una sección para comenzar.</p>
+      </section>
+      <footer>
+        <p>Creado por Diego y colaboradores. Proyecto de memoria y justicia.</p>
+      </footer>
+    </main>
+  </div>
 
-- Actas de nacimiento
-- Fe de bautismo
-- Documentales y entrevistas
-- Transcripciones de archivos históricos
-
-Nuestro objetivo es preservar la memoria y facilitar el acceso a estos materiales para investigadores, descendientes y ciudadanos comprometidos con la historia.
-
-## 📂 Documentos disponibles
-
-- [Acta de nacimiento de Isaac Abarbanel (PDF)](link)
-- [Fe de bautismo de familia Pérez (PDF)](link)
-- [Documental “Sefarad: raíces y memoria” (YouTube)](link)
-
-## 📬 Contacto
-
-Si tienes documentos que deseas compartir, escríbenos a: archivo.sefardi@gmail.com
+  <script src="script.js"></script>
+</body>
+</html>
