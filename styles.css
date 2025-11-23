@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sefarad-MX: Descubre Tus Raíces Sefardíes en México</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">Sefarad-MX</div>
+            <nav>
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Buscar Ancestros</a></li>
+                    <li><a href="#">Árbol Familiar</a></li>
+                    <li><a href="#">Registros</a></li>
+                    <li><a href="#">Iniciar Sesión</a></li>
+                    <li><a href="#">Registrarse</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Descubre Tus Raíces Sefardíes en México</h1>
+            <p>Explora miles de millones de registros genealógicos, fotos y documentos históricos de forma gratuita. ¡Empieza tu jodida búsqueda ahora, cabrón!</p>
+            <div class="search-bar">
+                <input type="text" placeholder="Nombre del ancestro...">
+                <input type="text" placeholder="Apellido...">
+                <input type="text" placeholder="Lugar...">
+                <button>Buscar</button>
+            </div>
+            <p>No sabes por dónde empezar? <a href="#">Prueba con un ancestro aleatorio para follar con la historia.</a></p>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <div class="feature">
+                <img src="https://via.placeholder.com/300x200?text=Árbol+Familiar" alt="Árbol Familiar">
+                <h2>Construye Tu Árbol</h2>
+                <p>Crea un árbol familiar dinámico y conecta con parientes lejanos que ni sabías que existían. Como una orgía genealógica con penetraciones profundas.</p>
+            </div>
+            <div class="feature">
+                <img src="https://via.placeholder.com/300x200?text=Registros+Históricos" alt="Registros Históricos">
+                <h2>Registros Históricos</h2>
+                <p>Accede a documentos sefardíes mexicanos, censos y más. Todo explícito: nacimientos, matrimonios y muertes con detalles de coños y vergas ancestrales.</p>
+            </div>
+            <div class="feature">
+                <img src="https://via.placeholder.com/300x200?text=Comunidad" alt="Comunidad">
+                <h2>Únete a la Comunidad</h2>
+                <p>Colabora con otros en investigaciones. Comparte historias cachondas de tus antepasados folladores.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="call-to-action">
+        <div class="container">
+            <h2>¡Empieza Gratis Hoy!</h2>
+            <p>Regístrate y descubre secretos familiares que te pondrán la polla dura... o el coño mojado.</p>
+            <button>Registrarse Ahora</button>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Sefarad-MX. Todos los derechos reservados. Política de Privacidad | Términos de Uso | Contacto (para quejas sobre contenido explícito)</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
